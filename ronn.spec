@@ -1,6 +1,6 @@
 Name:		ronn
 Version:	0.7.3
-Release:	1
+Release:	2
 Summary:	Man page generation tool
 Source0:	https://rubygems.org/downloads/ronn-%{version}.gem
 License:	MIT
@@ -8,6 +8,9 @@ BuildRequires:	ruby
 BuildRequires:	rubygem-hpricot
 BuildRequires:	rubygem-rdiscount
 BuildRequires:	rubygem-mustache
+Requires:	rubygem-hpricot
+Requires:	rubygem-rdiscount
+Requires:	rubygem-mustache
 BuildArch:	noarch
 
 %description
