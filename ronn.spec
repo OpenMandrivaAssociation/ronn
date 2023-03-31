@@ -1,6 +1,6 @@
 Name:		ronn
 Version:	0.7.3
-Release:	2
+Release:	3
 Summary:	Man page generation tool
 Source0:	https://rubygems.org/downloads/ronn-%{version}.gem
 License:	MIT
